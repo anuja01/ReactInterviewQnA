@@ -1,5 +1,5 @@
-# ReactInterviewQnA
-Questions and answers to React Interview Questions
+# react-resources
+QnA session with React JS
 
 ### React Documentation Guide
 ## Main Concepts Section
