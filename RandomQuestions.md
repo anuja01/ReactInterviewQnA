@@ -47,7 +47,7 @@ The state object is where you store property values that belongs to the componen
 When the state object changes, the component re-renders.  
 
 [Lifecycle](https://miro.medium.com/max/2000/1*lINPzI9FsJnay2_fm4vmzA.png "Lifecycle")
-
+`static getDerivedStateFromProps` -> set state based on props passed.  
 Notes:   
 Always use `setState()` to modify the local state   
 As State updates may be Asynchronous, add a callback to `setState()` for immideate state updates   
