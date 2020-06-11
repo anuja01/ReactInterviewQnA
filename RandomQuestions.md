@@ -155,3 +155,12 @@ this.setState((state, props) => ({
     3. Detecting unexpected side effects
     4. Warning about depricated findDomNode usage
     5. Detecting legacy context API
+    
+    ```
+    <React.StrictMode>
+        <div>
+          <ComponentOne />
+          <ComponentTwo />
+        </div>
+      </React.StrictMode>
+    ```   
