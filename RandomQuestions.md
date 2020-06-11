@@ -40,6 +40,12 @@ QnA session with React JS
    NOTE: State allows React components to change their output over time in response to user actions, network responses, and anything else, without violating this rule.
 
 ### State and Lifecycle
+6. What are `state` values?   
+`state` is similar to `props`, but it is private and fully controlled by the component.
+React components has a built-in state object.   
+The state object is where you store property values that belongs to the component.   
+When the state object changes, the component re-renders.  
+
 [Lifecycle](https://miro.medium.com/max/2000/1*lINPzI9FsJnay2_fm4vmzA.png "Lifecycle")
 
 Notes:   
