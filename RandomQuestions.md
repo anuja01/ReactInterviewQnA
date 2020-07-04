@@ -15,6 +15,8 @@ QnA session with React JS
 
    Babel compiles JSX down to ```React.createElement()``` calls.
 
+2. Where and why we need to use jsx as a file extension?
+
 ### Rendering Elements
 - ### Notes:
 - Unlike browser elements, React elements are plain objects, and cheaper to create.
@@ -23,24 +25,24 @@ QnA session with React JS
 - React only updates what's necessary. (Compare what's changed)   
 
 ### Components and Props
-2. What are components   
+1. What are components   
    Components let you split the UI into Independant, reusable pices   
 
-3. What are the types of components
+2. What are the types of components
    >1. Functional Components   
   A Javascript function
    >2. Class Components   
    uses ES6 class to define a component
-4. What are ```props```    
+3. What are ```props```    
    Props are properties getting passed to component from parent   
    Props must <b>never</b> be modified   
-5. Why functional components are Pure functions   
+4. Why functional components are Pure functions   
    Because they never attempt to change their input(props), and always return the same output for same input (no side effects)   
    <b>All React components must act like pure functions with respect to their props.</b>   
    NOTE: State allows React components to change their output over time in response to user actions, network responses, and anything else, without violating this rule.
 
 ### State and Lifecycle
-6. What are `state` values?   
+1. What are `state` values?   
 `state` is similar to `props`, but it is private and fully controlled by the component.
 React components has a built-in state object.   
 The state object is where you store property values that belongs to the component.   
@@ -59,7 +61,7 @@ this.setState((state, props) => ({
 ```
 ### Handling Events
 
-6. What are the syntax difference when handling events?   
+1. What are the syntax difference when handling events?   
    React events are named using camelCase, rather than lowercase.   
    With JSX you pass a function as the event handler, rather than a string.
    eg:
@@ -68,7 +70,7 @@ this.setState((state, props) => ({
         Activate Lasers
     </button>
    ```
-7. How do you prevent the default behaviour of triggered event in React?   
+2. How do you prevent the default behaviour of triggered event in React?   
    Need to call `preventDefault` explicitly.   
    ```javascript
     function handleClick(e) {
@@ -76,7 +78,7 @@ this.setState((state, props) => ({
         console.log('The link was clicked.');
    }
    ```
-8. Why <b>binding</b> is necessary JSX callbacks and what are the available options?   
+3. Why <b>binding</b> is necessary JSX callbacks and what are the available options?   
    In Javascript clas methods are not bound by default (`this.` means lexical scope)
    >available options   
    i. explicit binding using `bind` in constructor
@@ -129,25 +131,25 @@ this.setState((state, props) => ({
    ```
 
 ### Lists and Keys   
-9. Why do you need to specify a key attribute when rendering list of elements?   
+1. Why do you need to specify a key attribute when rendering list of elements?   
    Keys help React identify which items have changed, are added, or are removed which optimize the re-rendering
 
-10. Why do we call `super(props)` in constructor, and can we avoid it?  
+2. Why do we call `super(props)` in constructor, and can we avoid it?  
     `super(props)` will call the constructor of parent class.(`React.Component`)   
     Otherwise can't use `this.` within the construcotr.   
     We can use a class field to set the initial state, so there's no need to call the constructor.   
     `state = { isOn: true}`
-11. What does it mean by Render Props?
+3. What does it mean by Render Props?
     A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.
 
     Avantages:    
     Efficiently reuse code.
 
-12. Name types of static type checking
+4. Name types of static type checking
     1. Flow - a static type checker for js
     2. use Typescript
 
-13. Explain **Strict Mode** in React   
+5. Explain **Strict Mode** in React   
     StrictMode is a tool for highlighting potential problems in an application. It activates additional checks and warnings for its descendants.   
     eg:
     1. identify unsafe lifecycle methods
@@ -165,6 +167,6 @@ this.setState((state, props) => ({
       </React.StrictMode>
     ```   
     
-  14. Explain usage of **React memo**.  
+6. Explain usage of **React memo**.  
   Class components can bail out from rendering when their input props are the same using `PureComponent` or `shouldComponentUpdate`.   
   Now you can do the same with function components by wrapping them in `React.memo`
