@@ -10,12 +10,12 @@
   <p align="center">
     Your daily dosages of react based on our daily basis work.
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/anuja01/react-resources/blob/master/RandomQuestions.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo/issues">Report Issue</a>
+    <a href="https://github.com/anuja01/react-resources/issues">Report Issue</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Topic</a>
+    <a href="https://github.com/anuja01/react-resources/issues">Request Topic</a>
   </p>
 </p>
 
