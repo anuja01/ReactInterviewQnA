@@ -7,3 +7,7 @@ https://github.com/react-native-community/async-storage.
 `react-native-keychain` stores username/password combination in the secure storage in string format. Use JSON.stringify/JSON.parse when you store/access it.   
 https://github.com/oblador/react-native-keychain.     
 
+### 3. How to check for an Internet Connection in a React Native App.  
+`@react-native-community/netinfo` - React Native Network Info API for Android, iOS, macOS & Windows. It allows you to get information on:   
+* Connection type
+* Connection quality
