@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Random Q&A Sessions on ReactJS</h3>
+  <h3 align="center">Random Q&A Sessions on ReactJS and React Native</h3>
 
   <p align="center">
     Your daily dosages of react based on our daily basis work.
