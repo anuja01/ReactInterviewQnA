@@ -9,5 +9,6 @@ https://github.com/oblador/react-native-keychain.
 
 ### 3. How to check for an Internet Connection in a React Native App.  
 `@react-native-community/netinfo` - React Native Network Info API for Android, iOS, macOS & Windows. It allows you to get information on:   
-* Connection type
-* Connection quality
+* Connection type.  
+* Connection quality.  
+https://github.com/react-native-community/react-native-netinfo.  
