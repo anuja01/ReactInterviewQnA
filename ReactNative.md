@@ -12,3 +12,6 @@ https://github.com/oblador/react-native-keychain.
 * Connection type.  
 * Connection quality.  
 https://github.com/react-native-community/react-native-netinfo.  
+
+### 4. How to handle different screen sizes in React Native.   
+use `rem` values
