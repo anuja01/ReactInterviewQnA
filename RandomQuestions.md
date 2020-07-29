@@ -79,7 +79,7 @@ this.setState((state, props) => ({
    }
    ```
 3. Why <b>binding</b> is necessary JSX callbacks and what are the available options?   
-   In Javascript clas methods are not bound by default (`this.` means lexical scope)
+   In Javascript class methods are not bound by default (`this.` means lexical scope)
    >available options   
    i. explicit binding using `bind` in constructor
    ```javascript
